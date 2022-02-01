@@ -4,7 +4,7 @@ public class Order {
     String shipping;
     
     public Order(boolean filled, double cost, String shippingMethod) {
-          if (cost > 24.00) {
+      if (cost > 24.00) {
         System.out.println("High value item!");
       } else {
         System.out.println("Low value item!");
